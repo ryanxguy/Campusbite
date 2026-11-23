@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusBites Prices</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8ed;
+      color: #333;
+    }
+
+    header {
+      background: #ff6b35;
+      color: white;
+      text-align: center;
+      padding: 24px;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .price-list {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 18px 22px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .item:last-child {
+      border-bottom: none;
+    }
+
+    .price {
+      color: #ff6b35;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CampusBites Menu</h1>
+  </header>
+
+  <main>
+    <div class="price-list">
+      <div class="item"><span>Cheeseburger</span><span class="price">$6.50</span></div>
+      <div class="item"><span>Chicken Sandwich</span><span class="price">$7.00</span></div>
+      <div class="item"><span>Veggie Wrap</span><span class="price">$5.50</span></div>
+      <div class="item"><span>French Fries</span><span class="price">$3.00</span></div>
+      <div class="item"><span>Soda</span><span class="price">$2.00</span></div>
+    </div>
+  </main>
+</body>
+</html>
